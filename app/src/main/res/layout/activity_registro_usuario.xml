@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar artículo"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_articulo"
+
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="id"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/des_articulo"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Descripción"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/precio_articulo"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="$000.00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/agregar"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:onClick="onClick"/>
+</LinearLayout>
